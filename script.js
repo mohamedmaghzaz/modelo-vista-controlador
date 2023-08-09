@@ -2,9 +2,10 @@
   // MODELO DE DATOS
 let mis_peliculas_iniciales = [
       {titulo: "Superlópez",   director: "Javier Ruiz Caldera", "miniatura": "files/superlopez.png"},
+      {titulo: "El Gato Rey", director: "El Camellero Web", "miniatura": "files/gatico.png"},
       {titulo: "Jurassic Park", director: "Steven Spielberg", "miniatura": "files/jurassicpark.png"},
-      {titulo: "Interstellar",  director: "Christopher Nolan", "miniatura": "files/interstellar.png"},
-      {titulo: "El Gato Rey", director: "El Camellero Web", "miniatura": "files/gatico.png"}
+      {titulo: "Interstellar",  director: "Christopher Nolan", "miniatura": "files/interstellar.png"}
+      
 ];
 
   //crear contenedor localStorage: mis_peliculas 

@@ -181,11 +181,14 @@ document.addEventListener('click', ev => {
       else if (matchEvent(ev, '.update')) updateContr (myId(ev));
 
       else if(matchEvent(ev, '.ver')) showContr (myId(ev));
-      else if(matchEvent(ev, '.Delete')) deleteContr (myId(ev));
+      else if(matchEvent(ev, '.Delete')) {
+        if(confirm("¿Seguro que quieres borrar esta película?")){
+         deleteContr (myId(ev)); 
+        }
+      }
       else if(matchEvent(ev, '.reset')) resetContr (myId(ev));
       else if(matchEvent(ev, '.create'))  newContr(myId(ev));
       else if(matchEvent(ev, '.crear'))    createContr(myId(ev));
-                  // Completar añadiendo los controladores que faltan
 })
 
   // Inicialización       

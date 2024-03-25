@@ -78,7 +78,7 @@ const showView = (pelicula) => {
       <h2>Mis pelicula favoritas</h2>
       <p>
 La película <b>${pelicula.titulo}</b>, dirigida por <b>${pelicula.director}</b>
-      
+      <img src="${pelicula.miniatura}" alt="${pelicula.miniatura}" />
       </p>
       <div class="actions">
       <button class="index">Volver</button>
